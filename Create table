@@ -1,0 +1,9 @@
+CREATE DATABASE MovieDB;
+USE MovieDB;
+
+CREATE TABLE MovieDB.movies (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    genre VARCHAR(100) NOT NULL,
+    year INT NOT NULL
+);
